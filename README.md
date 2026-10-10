@@ -8,7 +8,11 @@ Skills are grouped by theme: `<category>/<skill-name>/SKILL.md`.
 
 | Category | Skill | What it does |
 |---|---|---|
+| `brand-design` | [ip-as-logo](brand-design/ip-as-logo/) | Generates simple, cute, personified square character images (mascot/IP logos) that stay recognizable at 32×32; proposes three directions and six candidates. |
 | `business-strategy` | [business-performance-diagnostic](business-strategy/business-performance-diagnostic/) | Audits a business, product or idea across Marketing, Sales, Team, Technology and Finance; finds the binding constraint and builds a 30/60/90-day plan. |
+| `business-strategy` | [hormozi-business-advice-direction](business-strategy/hormozi-business-advice-direction/) | Applies 12 Hormozi-style growth lenses (offer, pricing, proof, acquisition, focus…) to a business or idea and ranks them into an execution plan. |
+| `video-production` | [brag](video-production/brag/) | Turns the current project into a 15–25s launch video with Hyperframes, bundled music and SFX, plus share copy. Hands off to `brag-slim` on Opus 5.5. |
+| `video-production` | [brag-slim](video-production/brag-slim/) | Single-file version of `brag`: builds a launch video from a project or website URL using only tools already on the machine. |
 
 ## Installing on a new device
 

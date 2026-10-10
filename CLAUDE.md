@@ -9,5 +9,6 @@ When asked to add a skill (usually an uploaded .zip):
    - Reuse an existing category when it fits; otherwise create a new kebab-case category named by theme (e.g. `business-strategy`, `data-analysis`, `design`, `dev-tools`, `writing`).
    - Never nest deeper than one category level — `install.sh` looks for `*/*/SKILL.md`.
 3. Copy the skill's files unchanged; strip archive junk such as `__MACOSX/` and `.DS_Store`.
+   - If `SKILL.md` references bundled files (`references/`, `scripts/`, `assets/`) the upload lacks, look for the complete skill in the locally installed plugins (`~/.claude/plugins/`) and bundle it, keeping its LICENSE.
 4. Add a row to the Index table in `README.md` (keep rows sorted by category, then skill).
 5. Verify with `./install.sh --list`.
